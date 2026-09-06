@@ -1,0 +1,33 @@
+[project]
+name = "autonomus-assistent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "accelerate>=1.14.0",
+    "datasets>=5.0.1",
+    "evaluate>=0.4.6",
+    "ipykernel>=7.3.0",
+    "jupyter>=1.1.1",
+    "kokoro>=0.9.4",
+    "npmpy>=0.1.6",
+    "numpy>=2.5.2",
+    "ollama>=0.6.2",
+    "onnx>=1.22.0",
+    "onnxruntime>=1.29.0",
+    "onnxscript>=0.7.1",
+    "openai-whisper>=20250625",
+    "optimum>=2.3.0",
+    "piper-tts>=1.8.0",
+    "scikit-learn>=1.9.0",
+    "scipy>=1.18.1",
+    "sherpa-onnx>=1.13.7",
+    "sherpa-onnx-bin>=1.13.7",
+    "sounddevice>=0.5.6",
+    "soundfile>=0.14.0",
+    "torch>=2.14.0",
+    "torchaudio>=2.11.0",
+    "torchvision>=0.29.0",
+    "transformers>=5.16.1",
+]

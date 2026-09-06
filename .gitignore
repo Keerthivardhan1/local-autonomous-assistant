@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Models
+models/
+*.gguf
+*.onnx
+*.onnx.data
+*.onnx.json
+*.pt
+*.bin
+*.safetensors
+
+# whisper.cpp
+whisper.cpp/
+build/
+
+# Local trained model directories
+*_model/
+
+# Audio recordings / generated audio
+*.wav
+*.mp3
+*.ogg
+*.flac
+
+# Build artifacts
+build/
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary files
+tmp/
+temp/
+
+# Datasets
+# Uncomment if datasets should not be public
+# *.csv
+# *.parquet
