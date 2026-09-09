@@ -11,6 +11,7 @@ dependencies = [
     "ipykernel>=7.3.0",
     "jupyter>=1.1.1",
     "kokoro>=0.9.4",
+    "llama-cpp-python>=0.3.35",
     "npmpy>=0.1.6",
     "numpy>=2.5.2",
     "ollama>=0.6.2",
